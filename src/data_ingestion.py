@@ -3,44 +3,33 @@ import datetime
 import pandas as pd
 from utils import perform_get_request, xml_to_load_dataframe, xml_to_gen_data
 
-def get_load_data_from_entsoe(regions, periodStart='202302240000', periodEnd='202303240000', output_path='./data'):
-    
-    # TODO: There is a period range limit of 1 year for this API. Process in 1 year chunks if needed
-    
+def get_load_data_from_entsoe(regions, periodStart='202201010000', periodEnd='202212312300', output_path='./data'):
     # URL of the RESTful API
     url = 'https://web-api.tp.entsoe.eu/api'
 
     # General parameters for the API
-    # Refer to https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html#_documenttype
     params = {
         'securityToken': '1d9cd4bd-f8aa-476c-8cc1-3442dc91506d',
         'documentType': 'A65',
         'processType': 'A16',
         'outBiddingZone_Domain': 'FILL_IN', # used for Load data
         'periodStart': periodStart, # in the format YYYYMMDDHHMM
-        'periodEnd': periodEnd # in the format YYYYMMDDHHMM
+        'periodEnd': periodEnd, # in the format YYYYMMDDHHMM
     }
 
-    # Loop through the regions and get data for each region
+    # Loop through the regions
     for region, area_code in regions.items():
-        print(f'Fetching data for {region}...')
+        print(f'Fetching load data for {region}...')
         params['outBiddingZone_Domain'] = area_code
-    
-        # Use the requests library to get data from the API for the specified time range
+
         response_content = perform_get_request(url, params)
+        df = xml_to_load_dataframe(response_content)
 
-        # Response content is a string of XML data
-        df = xml_to_load_dataframe(response_content, 'Load')
-
-        # Save the DataFrame to a CSV file
         df.to_csv(f'{output_path}/load_{region}.csv', index=False)
-       
-    return
+        print(f"Finished Fetching Load Data for {region}")
+    print("Load Data fetched succesfully")
 
-def get_gen_data_from_entsoe(regions, periodStart='202302240000', periodEnd='202303240000', output_path='./data'):
-    
-    # TODO: There is a period range limit of 1 day for this API. Process in 1 day chunks if needed
-
+def get_gen_data_from_entsoe(regions, periodStart='202201010000', periodEnd='202212312300', output_path='./data'):
     # URL of the RESTful API
     url = 'https://web-api.tp.entsoe.eu/api'
 
@@ -52,27 +41,26 @@ def get_gen_data_from_entsoe(regions, periodStart='202302240000', periodEnd='202
         'outBiddingZone_Domain': 'FILL_IN', # used for Load data
         'in_Domain': 'FILL_IN', # used for Generation data
         'periodStart': periodStart, # in the format YYYYMMDDHHMM
-        'periodEnd': periodEnd # in the format YYYYMMDDHHMM
+        'periodEnd': periodEnd, # in the format YYYYMMDDHHMM
     }
-
-    # Loop through the regions and get data for each region
+    green_energy_codes = ['B01', 'B09', 'B10', 'B11', 'B12', 'B13', 'B15', 'B16', 'B17', 'B18', 'B19']
+    # Loop through the regions
     for region, area_code in regions.items():
-        print(f'Fetching data for {region}...')
+        print(f'Fetching generation data for {region}...')
         params['outBiddingZone_Domain'] = area_code
         params['in_Domain'] = area_code
-    
-        # Use the requests library to get data from the API for the specified time range
+
         response_content = perform_get_request(url, params)
-
-        # Response content is a string of XML data
+        
         dfs = xml_to_gen_data(response_content)
-
+        
         # Save the dfs to CSV files
         for psr_type, df in dfs.items():
-            # Save the DataFrame to a CSV file
-            df.to_csv(f'{output_path}/gen_{region}_{psr_type}.csv', index=False)
-    
-    return
+            if psr_type in green_energy_codes:
+                df.to_csv(f'{output_path}/gen_{region}_{psr_type}.csv', index=False)
+                print(f"Finished Fetching Data for {region} and {psr_type}")
+    print("Generation Data fetched succesfully")
+
 
 
 def parse_arguments():
