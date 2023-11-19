@@ -1,14 +1,19 @@
 import argparse
 import datetime
-import pandas as pd
+from dotenv import load_dotenv
 import logging
+import os
 from utils import perform_get_request, xml_to_load_dataframe, xml_to_gen_data
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+load_dotenv()  # take environment variables from .env
+
+security_token = os.getenv("API_KEY")
+
 def get_load_data_from_entsoe(regions: dict, periodStart: str = '202201010000', 
-                              periodEnd: str = '202212312300', output_path: str = './data'):
+                              periodEnd: str = '202301010000', output_path: str = './data/raw/2022_to_2023'):
     """
     Fetches load data for specified regions from the ENTSO-E API and saves it to CSV files.
 
@@ -18,12 +23,15 @@ def get_load_data_from_entsoe(regions: dict, periodStart: str = '202201010000',
     periodEnd (str): End time for the data query in 'YYYYMMDDHHMM' format.
     output_path (str): Path where the output CSV files will be saved.
     """
+    # URL of the RESTful API
     url = 'https://web-api.tp.entsoe.eu/api'
+
+    # General parameters for the API
     params = {
-        'securityToken': '1d9cd4bd-f8aa-476c-8cc1-3442dc91506d',
+        'securityToken': security_token,
         'documentType': 'A65',
         'processType': 'A16',
-        'outBiddingZone_Domain': 'FILL_IN',
+        'outBiddingZone_Domain': 'FILL_IN',  # used for Load data
         'periodStart': periodStart,
         'periodEnd': periodEnd,
     }
@@ -40,7 +48,7 @@ def get_load_data_from_entsoe(regions: dict, periodStart: str = '202201010000',
     logging.info("Load Data fetched successfully")
 
 def get_gen_data_from_entsoe(regions: dict, periodStart: str = '202201010000', 
-                             periodEnd: str = '202212312300', output_path: str = './data'):
+                             periodEnd: str = '202301010000', output_path: str = './data/raw/2022_to_2023'):
     """
     Fetches generation data for specified regions from the ENTSO-E API and saves it to CSV files.
 
@@ -50,9 +58,10 @@ def get_gen_data_from_entsoe(regions: dict, periodStart: str = '202201010000',
     periodEnd (str): End time for the data query in 'YYYYMMDDHHMM' format.
     output_path (str): Path where the output CSV files will be saved.
     """
+    # URL of the RESTful API
     url = 'https://web-api.tp.entsoe.eu/api'
     params = {
-        'securityToken': '1d9cd4bd-f8aa-476c-8cc1-3442dc91506d',
+        'securityToken': security_token,
         'documentType': 'A75',
         'processType': 'A16',
         'outBiddingZone_Domain': 'FILL_IN',
@@ -60,15 +69,15 @@ def get_gen_data_from_entsoe(regions: dict, periodStart: str = '202201010000',
         'periodStart': periodStart,
         'periodEnd': periodEnd,
     }
-    green_energy_codes = ['B01', 'B09', 'B10', 'B11', 'B12', 'B13', 'B15', 'B16', 'B18', 'B19']
 
+    green_energy_codes = ['B01', 'B09', 'B10', 'B11', 'B12', 'B13', 'B15', 'B16', 'B18', 'B19']
+    
     for region, area_code in regions.items():
         logging.info(f'Fetching generation data for {region}...')
         params['outBiddingZone_Domain'] = area_code
         params['in_Domain'] = area_code
 
         response_content = perform_get_request(url, params)
-        
         dfs = xml_to_gen_data(response_content)
         
         for psr_type, df in dfs.items():
@@ -94,19 +103,18 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         '--end_time', 
         type=lambda s: datetime.datetime.strptime(s, '%Y-%m-%d'), 
-        default=datetime.datetime(2022, 12, 31),  # Set default end time to December 31, 2022
+        default=datetime.datetime(2023, 1, 1),  # Set default end time to January 1, 2023
         help='End time for the data to download, format: YYYY-MM-DD'
     )
     parser.add_argument(
         '--output_path', 
         type=str, 
-        default='./data/raw',
+        default='./data/raw/2022_to_2023',
         help='Path for saving the output data files'
     )
     return parser.parse_args()
 
 def main(start_time, end_time, output_path):
-    
     regions = {
         'HU': '10YHU-MAVIR----U',
         'IT': '10YIT-GRTN-----B',
@@ -123,3 +131,8 @@ def main(start_time, end_time, output_path):
     end_time = end_time.strftime('%Y%m%d%H%M')
 
     get_load_data_from_entsoe(regions, start_time, end_time, output_path)
+    get_gen_data_from_entsoe(regions, start_time, end_time, output_path)
+
+if __name__ == "__main__":
+    args = parse_arguments()
+    main(args.start_time, args.end_time, args.output_path)

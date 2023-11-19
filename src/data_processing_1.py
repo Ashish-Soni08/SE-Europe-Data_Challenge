@@ -150,7 +150,7 @@ def main(source_directory: str, destination_directory: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Data processing script for Energy Forecasting')
-    parser.add_argument('--input_dir', type=str, default='data/raw', help='Directory containing the raw data files')
-    parser.add_argument('--output_dir', type=str, default='data/processed', help='Directory to save the processed data')
+    parser.add_argument('--input_dir', type=str, default='data/raw/2022_to_2023', help='Directory containing the raw data files')
+    parser.add_argument('--output_dir', type=str, default='data/processed/2022_to_2023', help='Directory to save the processed data')
     args = parser.parse_args()
     main(args.input_dir, args.output_dir)
