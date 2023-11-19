@@ -1,5 +1,10 @@
 # Schneider Electric European Datascience Hackathon 2023
 
+![NUWE]]("images/schneider_electric_logo.png")
+
+Organied by: NUWE
+![NUWE]]("images/nuwe_logo.png")
+
 *EcoForecast: Revolutionizing Green Energy Surplus Prediction in Europe*
 
 **Date:** 18th November to 20th November, 2023
@@ -16,7 +21,7 @@ Their country codes: SE, UK, DE, DK, SE, HU, IT, PO, NE
 
 ## 1. **Raw Data Collection**
 
-The `data_ingestion.py` script collects raw time-series data of various time granularities from the ENTSO-E Transparency portal using provided API. The collected data comprises both energy generation from renewable sources and electricity consumption (load) for specified European countries.
+The `data_ingestion.py` script collects raw time-series data of various time granularities from the ENTSO-E Transparency portal using it API: https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html. The collected data comprises both energy generation from renewable sources and electricity consumption (load) for specified European countries.
 
 ### Load Data Collection
 The script fetches electricity load data for each country, providing insights into the energy consumption patterns. This data is crucial for understanding the overall demand for energy in each region.
