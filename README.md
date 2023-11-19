@@ -1,6 +1,10 @@
 # Schneider Electric European Datascience Hackathon 2023
+![SE Logo](https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/images/schneider_electric_logo.png)
 
-*Organied by: NUWE*
+*Organised by: NUWE* <br>
+![Nuwe Logo](https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/images/nuwe_logo.png)
+
+
 
 *EcoForecast: Revolutionizing Green Energy Surplus Prediction in Europe*
 
@@ -16,15 +20,19 @@ The countries to focus on are: Spain, UK, Germany, Denmark, Sweden, Hungary, Ita
 Their country codes: SE, UK, DE, DK, SE, HU, IT, PO, NE
 
 
-## 1. **Raw Data Collection**
+## 1. **Data Collection**
 
-The `data_ingestion.py` script collects raw time-series data of various time granularities from the ENTSO-E Transparency portal using it API: https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html. The collected data comprises both energy generation from renewable sources and electricity consumption (load) for specified European countries.
+The `data_ingestion.py` script collects raw time-series data of various time granularities from the ENTSO-E Transparency portal using it [API](https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html). The collected data comprises both energy generation from renewable sources and electricity consumption (load) for specified European countries.
 
 ### Load Data Collection
-The script fetches electricity load data for each country, providing insights into the energy consumption patterns. This data is crucial for understanding the overall demand for energy in each region.
+The script fetches electricity consumption (load) data for each country, providing insights into the energy consumption patterns. This data is crucial for understanding the overall demand for energy in each region.
+
+Load Data contains the following columns for each `country` - `StartTime`, `EndTime`, `AreaID`, `UnitName`, `Load`
 
 ### Green Energy Generation Data Collection
 In addition to load data, the script retrieves energy generation data, filtering out non-green energy sources. The filtering process involves selecting specific PsrTypes, representing various green energy types. This ensures that the collected data focuses exclusively on renewable and environmentally friendly energy sources. 
+
+Generation Data contains the following columns for each `country` and `PsrType` - `StartTime`, `EndTime`, `AreaID`, `UnitName`, `PsrType`, `quantity`
 
 The PsrTypes include: 
 - Biomass (B01)
@@ -38,8 +46,20 @@ The PsrTypes include:
 - Wind Offshore (B18)
 - Wind Onshore (B19)
 
+## 2. **Data Processing:**
+There are `3` data processing scripts that include different steps of data wrangling to get the data into the final desired format as required for the challenge.
+1. `data_processing_1.py` - convert datatypes to appropraite format, keep required columns, fill missing values, interpolate values and save as new csv files.
+2. `data_processing_2.py` - processes and aggregates energy generation and load data for multiple European countries, merging them into consolidated country-specific files
+3. `final_data_processing` - automates the merging of energy data for multiple European countries into a single DataFrame.  It handles the merging process by consolidating country-specific files from an intermediate directory into a final processed.csv file
+The processed.csv has the following columns:
+`green_energy_SP`, `green_energy_UK`, `green_energy_DE`, `green_energy_DK`, `green_energy_HU`, `green_energy_SE`, `green_energy_IT`, `green_energy_PO`, `green_energy_NL`, `SP_Load`, `UK_Load`, `DE_Load`, `DK_Load`, `HU_Load`, `SE_Load`, `IT_Load`, `PO_Load`
 
-## 2. **Data Processing:** 
-The data collected had to be processed so that the columns look like the provided `test.csv`:
-,green_energy_SP,green_energy_UK,green_energy_DE,green_energy_DK,green_energy_HU,green_energy_SE,green_energy_IT,green_energy_PO,green_energy_NL,SP_Load,UK_Load,DE_Load,DK_Load,HU_Load,SE_Load,IT_Load,PO_Load.
 
+These features are provided for each of the mentioned countries and are aggregated at different intervals (15 min, 30 min, or 1h), depending on the country. All the data was homogenized to 1-hour intervals for consistency.
+
+Time period: 01-01-2022 to 01-01-2023
+Recommended Training and Testing Split for Forecasting: 80:20
+
+**Team Member:** *Ashish Soni and Ishiita Pal* 
+<br>
+**Tech Stack:** *Python*
