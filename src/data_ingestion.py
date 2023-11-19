@@ -7,7 +7,17 @@ from utils import perform_get_request, xml_to_load_dataframe, xml_to_gen_data
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def get_load_data_from_entsoe(regions, periodStart='202201010000', periodEnd='202212312300', output_path='./data'):
+def get_load_data_from_entsoe(regions: dict, periodStart: str = '202201010000', 
+                              periodEnd: str = '202212312300', output_path: str = './data'):
+    """
+    Fetches load data for specified regions from the ENTSO-E API and saves it to CSV files.
+
+    Parameters:
+    regions (dict): A dictionary mapping region names to their respective area codes.
+    periodStart (str): Start time for the data query in 'YYYYMMDDHHMM' format.
+    periodEnd (str): End time for the data query in 'YYYYMMDDHHMM' format.
+    output_path (str): Path where the output CSV files will be saved.
+    """
     url = 'https://web-api.tp.entsoe.eu/api'
     params = {
         'securityToken': '1d9cd4bd-f8aa-476c-8cc1-3442dc91506d',
@@ -29,7 +39,17 @@ def get_load_data_from_entsoe(regions, periodStart='202201010000', periodEnd='20
         logging.info(f"Finished Fetching Load Data for {region}")
     logging.info("Load Data fetched successfully")
 
-def get_gen_data_from_entsoe(regions, periodStart='202201010000', periodEnd='202212312300', output_path='./data'):
+def get_gen_data_from_entsoe(regions: dict, periodStart: str = '202201010000', 
+                             periodEnd: str = '202212312300', output_path: str = './data'):
+    """
+    Fetches generation data for specified regions from the ENTSO-E API and saves it to CSV files.
+
+    Parameters:
+    regions (dict): A dictionary mapping region names to their respective area codes.
+    periodStart (str): Start time for the data query in 'YYYYMMDDHHMM' format.
+    periodEnd (str): End time for the data query in 'YYYYMMDDHHMM' format.
+    output_path (str): Path where the output CSV files will be saved.
+    """
     url = 'https://web-api.tp.entsoe.eu/api'
     params = {
         'securityToken': '1d9cd4bd-f8aa-476c-8cc1-3442dc91506d',
@@ -40,7 +60,7 @@ def get_gen_data_from_entsoe(regions, periodStart='202201010000', periodEnd='202
         'periodStart': periodStart,
         'periodEnd': periodEnd,
     }
-    green_energy_codes = ['B01', 'B09', 'B10', 'B11', 'B12', 'B13', 'B15', 'B16', 'B17', 'B18', 'B19']
+    green_energy_codes = ['B01', 'B09', 'B10', 'B11', 'B12', 'B13', 'B15', 'B16', 'B18', 'B19']
 
     for region, area_code in regions.items():
         logging.info(f'Fetching generation data for {region}...')
@@ -57,25 +77,31 @@ def get_gen_data_from_entsoe(regions, periodStart='202201010000', periodEnd='202
                 logging.info(f"Finished Fetching Data for {region} and {psr_type}")
     logging.info("Generation Data fetched successfully")
 
-def parse_arguments():
+def parse_arguments() -> argparse.Namespace:
+    """
+    Parses command line arguments for the data ingestion script.
+
+    Returns:
+    argparse.Namespace: Parsed command line arguments.
+    """
     parser = argparse.ArgumentParser(description='Data ingestion script for Energy Forecasting Hackathon')
     parser.add_argument(
         '--start_time', 
         type=lambda s: datetime.datetime.strptime(s, '%Y-%m-%d'), 
-        default=datetime.datetime(2023, 1, 1), 
+        default=datetime.datetime(2022, 1, 1),  # Set default start time to January 1, 2022
         help='Start time for the data to download, format: YYYY-MM-DD'
     )
     parser.add_argument(
         '--end_time', 
         type=lambda s: datetime.datetime.strptime(s, '%Y-%m-%d'), 
-        default=datetime.datetime(2023, 1, 2), 
+        default=datetime.datetime(2022, 12, 31),  # Set default end time to December 31, 2022
         help='End time for the data to download, format: YYYY-MM-DD'
     )
     parser.add_argument(
         '--output_path', 
         type=str, 
-        default='./data',
-        help='Name of the output file'
+        default='./data/raw',
+        help='Path for saving the output data files'
     )
     return parser.parse_args()
 
