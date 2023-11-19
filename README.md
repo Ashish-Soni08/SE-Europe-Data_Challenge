@@ -1,9 +1,6 @@
 # Schneider Electric European Datascience Hackathon 2023
 
-![NUWE]]("images/schneider_electric_logo.png")
-
-Organied by: NUWE
-![NUWE]]("images/nuwe_logo.png")
+*Organied by: NUWE*
 
 *EcoForecast: Revolutionizing Green Energy Surplus Prediction in Europe*
 
@@ -45,3 +42,4 @@ The PsrTypes include:
 ## 2. **Data Processing:** 
 The data collected had to be processed so that the columns look like the provided `test.csv`:
 ,green_energy_SP,green_energy_UK,green_energy_DE,green_energy_DK,green_energy_HU,green_energy_SE,green_energy_IT,green_energy_PO,green_energy_NL,SP_Load,UK_Load,DE_Load,DK_Load,HU_Load,SE_Load,IT_Load,PO_Load.
+
