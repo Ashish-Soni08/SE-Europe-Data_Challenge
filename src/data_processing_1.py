@@ -87,12 +87,12 @@ def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
     df['start_time'] = pd.to_datetime(df['start_time'])
     
     df.set_index('start_time', inplace=True)
-    df = df.resample('1H').sum()
+    
 
     # Handle missing data: replace NaN values with zeros
     df.fillna(0, inplace=True)
-
     df.interpolate(method='linear', limit_direction='both', inplace=True)
+    df = df.resample('1H').sum(axis=1, skipna=False)
     df.reset_index(inplace=True)
     
     return df
