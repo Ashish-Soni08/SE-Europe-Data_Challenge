@@ -61,7 +61,7 @@ def main(processed_directory: str, output_directory: str):
         os.makedirs(output_directory)
         logging.info(f'Created directory: {output_directory}')
 
-    country_codes = ['DE', 'HU', 'IT', 'PO', 'SP', 'UK', 'DK', 'SE', 'NE']  # Update with actual country codes
+    country_codes = ['DE', 'HU', 'IT', 'PO', 'SP', 'UK', 'DK', 'SE', 'NE'] 
     for country_code in country_codes:
         logging.info(f'Processing data for {country_code}')
         process_country_data(processed_directory, country_code, output_directory)
