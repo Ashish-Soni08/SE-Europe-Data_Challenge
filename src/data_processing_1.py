@@ -88,11 +88,9 @@ def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
     
     df.set_index('start_time', inplace=True)
     
-
-    # Handle missing data: replace NaN values with zeros
-    df.fillna(0, inplace=True)
     df.interpolate(method='linear', limit_direction='both', inplace=True)
-    df = df.resample('1H').sum(axis=1, skipna=False)
+    df.fillna(0, inplace=True)
+    df = df.resample('1H').sum()
     df.reset_index(inplace=True)
     
     return df
