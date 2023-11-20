@@ -1,21 +1,28 @@
-import pandas as pd
 import argparse
+import json
+import pandas as pd
+import pickle
+
 
 def load_data(file_path):
-    # TODO: Load test data from CSV file
+    df = pd.read_csv(file_path, parse_dates=['start_time'], index_col='start_time')
     return df
 
 def load_model(model_path):
-    # TODO: Load the trained model
+    with open(model_path, 'rb') as file:
+        model = pickle.load(file)
     return model
 
 def make_predictions(df, model):
-    # TODO: Use the model to make predictions on the test data
+    X_test = df.drop('label', axis=1)
+    predictions = model.predict(X_test)
     return predictions
 
 def save_predictions(predictions, predictions_file):
-    # TODO: Save predictions to a JSON file
-    pass
+    predictions = {'target': {str(index): int(prediction) for index, prediction in enumerate(predictions)}}
+    predictions_json = json.dumps(predictions)
+    with open(predictions_file, 'w') as file:
+        file.write(predictions_json)
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Prediction script for Energy Forecasting Hackathon')
@@ -28,7 +35,7 @@ def parse_arguments():
     parser.add_argument(
         '--model_file', 
         type=str, 
-        default='models/model.pkl',
+        default='models/random_forest_model.pkl',
         help='Path to the trained model file'
     )
     parser.add_argument(
