@@ -61,9 +61,9 @@ The PsrTypes include:
 There are `3` data processing scripts that include different steps of data wrangling to get the data into the final desired format as required for the challenge.
 1. `data_processing_1.py` - convert datatypes to appropraite format, keep required columns, fill missing values, interpolate values and save as new csv files. The `PsrType` are provided for each of the mentioned countries and are aggregated at different intervals (15 min, 30 min, or 1h), depending on the country. All the data was homogenized to 1-hour intervals for consistency.
 2. `data_processing_2.py` - processes and aggregates energy generation and load data for multiple European countries, merging them into consolidated country-specific files
-3. `final_data_processing.py` - automates the merging of energy data for multiple European countries into a single DataFrame.  It handles the merging process by consolidating country-specific files from an intermediate directory into a final processed.csv file
+3. `final_data_processing.py` - automates the merging of energy data for multiple European countries into a single DataFrame.  It handles the merging process by consolidating country-specific files from an intermediate directory into a final processed.csv file.
 The processed.csv has the following columns:
-`green_energy_SP`, `green_energy_UK`, `green_energy_DE`, `green_energy_DK`, `green_energy_HU`, `green_energy_SE`, `green_energy_IT`, `green_energy_PO`, `green_energy_NL`, `SP_Load`, `UK_Load`, `DE_Load`, `DK_Load`, `HU_Load`, `SE_Load`, `IT_Load`, `PO_Load`
+`green_energy_SP`, `green_energy_UK`, `green_energy_DE`, `green_energy_DK`, `green_energy_HU`, `green_energy_SE`, `green_energy_IT`, `green_energy_PO`, `green_energy_NL`, `SP_Load`, `UK_Load`, `DE_Load`, `DK_Load`, `HU_Load`, `SE_Load`, `IT_Load`, `PO_Load`.
 
 ## 3. **Model Training and Testing**
 Recommended Training and Testing Split for Forecasting: 80:20
