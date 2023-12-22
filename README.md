@@ -77,3 +77,9 @@ We inferred and made the the following decisions on the basis of our prelimianar
 **Results Discussion:** By adding the `label` column based on the highest surplus for an hour, we had only few countries represented in the `label` column. This will impact the model's ability to predict other class labels, and also the resulting model had a low f1_score(macro): `0.55`. Since it was our first time wrangling time series data for a classification task, there were challenges to get the data into the right format for predictive modelling techniques. Therefore, we also did not train any models further.  
 
 **Conclusion:** The data format required for the task has to be investigated in more depth and then we can do better with our predictive modeling approach. But due to a shorter period of time we were unable to bring this project to a successful conclusion.
+
+## Hackathon Results
+We achieved the `3rd` Rank in the Hackathon.
+<br> [GreenProphets - EcoForecast: Revolutionizing Green Energy Surplus Prediction in Europe - Report](https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/GreenProphets%20-%20EcoForecast_%20Revolutionizing%20Green%20Energy%20Surplus%20Prediction%20in%20Europe%20-%20Report.pdf)
+
+
