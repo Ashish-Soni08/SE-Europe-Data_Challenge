@@ -1,0 +1,1741 @@
+repo_name: Ashish-Soni08/SE-Europe-Data_Challenge
+report_id: 9763389385a5ac847be1cbd5338af049
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T14:34:08+00:00'
+requested_by: Ashish-Soni08
+provider: github
+branch: main
+detected_tools_count: 122
+tools:
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Pandoc
+  description: A universal document converter
+  website_url: https://pandoc.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/2330/no-img-open-source.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge
+  detection_source: Repo Metadata
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.25.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  version: 1.10.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge
+  detection_source: Repo Metadata
+- name: Torch
+  description: An open-source machine learning library and a script language based
+    on the Lua programming language
+  website_url: http://torch.ch/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Babel
+  description: Internationalization utilities
+  package_url: https://pypi.org/project/Babel
+  version: 2.13.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19888/default_680f9274a97353753534797409b2c06b6bd32266.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Cython
+  description: The Cython compiler for writing C extensions for the Python language
+  package_url: https://pypi.org/project/Cython
+  version: 3.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19929/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 3.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: GitPython
+  description: Python Git Library
+  package_url: https://pypi.org/project/GitPython
+  version: 3.1.40
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19867/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+  vulnerabilities:
+  - name: Untrusted search path under some conditions on Windows allows arbitrary
+      code execution
+    cve_id: CVE-2024-22190
+    cve_url: https://github.com/advisories/GHSA-2mqj-m65w-jghx
+    detected_date: Jan 11
+    severity: high
+    first_patched: 3.1.41
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  version: 2.16.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Send2Trash
+  description: Send file to trash natively under Mac OS X
+  package_url: https://pypi.org/project/Send2Trash
+  version: 1.8.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20395/default_5d8ceeeb4f37c8c5984e00abce1dab5113e27b56.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 3.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: ansi2html
+  description: Convert text with ANSI color codes to HTML
+  package_url: https://pypi.org/project/ansi2html
+  version: 1.8.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: argon2-cffi
+  description: The secure Argon2 password hashing algorithm
+  package_url: https://pypi.org/project/argon2-cffi
+  version: 23.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: arrow
+  description: Better dates &amp; times for Python
+  package_url: https://pypi.org/project/arrow
+  version: 1.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19891/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: asttokens
+  description: Annotate AST trees with source code positions
+  package_url: https://pypi.org/project/asttokens
+  version: 2.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20745/default_c90b3e514872112e4562f3131a3c6b68b0d05009.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  version: 23.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: bleach
+  description: An easy safelist-based HTML-sanitizing tool
+  package_url: https://pypi.org/project/bleach
+  version: 6.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20045/default_b0b684477aefb2da4c92a4bafd91d26e16511cd1.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: blinker
+  description: Fast, simple object-to-object and broadcast signaling
+  package_url: https://pypi.org/project/blinker
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20273/default_847617f8273bac4dd5921370b0684f29c3397a68.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2023.7.22
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: cffi
+  description: Foreign Function Interface for Python calling C code
+  package_url: https://pypi.org/project/cffi
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 3.3.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.1.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: cloudpickle
+  description: Extended pickling support for Python objects
+  package_url: https://pypi.org/project/cloudpickle
+  version: 3.0.0
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20066/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: dash
+  description: A Python framework for building reactive web-apps
+  package_url: https://pypi.org/project/dash
+  version: 2.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20186/default_dd3b312e8cc6182284a1b62b29d8f5d203c32bda.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+  vulnerabilities:
+  - name: Dash apps vulnerable to Cross-site Scripting
+    cve_id: CVE-2024-21485
+    cve_url: https://github.com/advisories/GHSA-547x-748v-vp6p
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 2.15.0
+- name: dash-core-components
+  description: Core component suite for Dash
+  package_url: https://pypi.org/project/dash-core-components
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+  vulnerabilities:
+  - name: Dash apps vulnerable to Cross-site Scripting
+    cve_id: CVE-2024-21485
+    cve_url: https://github.com/advisories/GHSA-547x-748v-vp6p
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 
+- name: dash-html-components
+  description: Vanilla HTML components for Dash
+  package_url: https://pypi.org/project/dash-html-components
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20692/default_fd0d96b8d7182cbbe0406690ad6e9e7931692765.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+  vulnerabilities:
+  - name: Dash apps vulnerable to Cross-site Scripting
+    cve_id: CVE-2024-21485
+    cve_url: https://github.com/advisories/GHSA-547x-748v-vp6p
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 
+- name: decorator
+  description: Decorators for Humans
+  package_url: https://pypi.org/project/decorator
+  version: 5.1.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19911/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: defusedxml
+  description: XML bomb protection for Python stdlib modules
+  package_url: https://pypi.org/project/defusedxml
+  version: 0.7.1
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20210/default_6796c4086c025d18cdc673750b208b846d8e0914.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: deprecation
+  description: A library to handle automated deprecations
+  package_url: https://pypi.org/project/deprecation
+  version: 2.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20364/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: dill
+  description: Serialize all of python
+  package_url: https://pypi.org/project/dill
+  version: 0.3.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19972/default_735d20726524f3a2b12f956af25bde52f942f85a.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: exceptiongroup
+  description: Backport of PEP 654
+  package_url: https://pypi.org/project/exceptiongroup
+  version: 1.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: executing
+  description: Get the currently executing AST node of a frame
+  package_url: https://pypi.org/project/executing
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: fastjsonschema
+  description: Fastest Python implementation of JSON schema
+  package_url: https://pypi.org/project/fastjsonschema
+  version: 2.18.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: filelock
+  description: A platform independent file lock
+  package_url: https://pypi.org/project/filelock
+  version: 3.13.1
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20204/default_645e4030c04804ccf56eaad54caf7b7a73a44c64.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: fonttools
+  description: Tools to manipulate font files
+  package_url: https://pypi.org/project/fonttools
+  version: 4.43.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20488/default_13373c456cf04faa5b7f33cd4c4095cbd571dfce.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: fsspec
+  description: File-system specification
+  package_url: https://pypi.org/project/fsspec
+  version: 2023.10.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: gitdb
+  description: Git Object Database
+  package_url: https://pypi.org/project/gitdb
+  version: 4.0.11
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: holidays
+  description: Generate and work with holidays in Python
+  package_url: https://pypi.org/project/holidays
+  version: '0.33'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20770/default_2c6d181a26f9d1a50f0d15ef87ca0ca3bed53831.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 6.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: ipykernel
+  description: IPython Kernel for Jupyter
+  package_url: https://pypi.org/project/ipykernel
+  version: 6.26.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20282/default_23dd4b159eaa2c5b085470b39bf396fcc6cf2c38.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: ipywidgets
+  description: IPython HTML widgets for Jupyter
+  package_url: https://pypi.org/project/ipywidgets
+  version: 8.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: jedi
+  description: An autocompletion tool for Python that can be used for text editors
+  package_url: https://pypi.org/project/jedi
+  version: 0.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20260/default_9a53068260c70b2274df0967716480e7e3f74b0d.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: joblib
+  description: 'Lightweight pipelining: using Python functions as pipeline jobs'
+  package_url: https://pypi.org/project/joblib
+  version: 1.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20033/default_5a21cf44b42c3ef13f57dcd42ae753240ea7e808.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: json5
+  description: A Python implementation of the JSON5 data format
+  package_url: https://pypi.org/project/json5
+  version: 0.9.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: jsonpointer
+  description: Identify specific nodes in a JSON document
+  package_url: https://pypi.org/project/jsonpointer
+  version: '2.4'
+  license: Zed
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: jupyter_client
+  description: Jupyter protocol implementation and client libraries
+  package_url: https://pypi.org/project/jupyter_client
+  version: 8.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: jupyter_core
+  description: Jupyter core package
+  package_url: https://pypi.org/project/jupyter_core
+  version: 5.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: jupyterlab
+  description: The JupyterLab notebook server extension
+  package_url: https://pypi.org/project/jupyterlab
+  version: 4.0.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20376/default_e6c4d6b6295b7d6934a5e16b2a16a7aa07991d65.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+  vulnerabilities:
+  - name: JupyterLab vulnerable to potential authentication and CSRF tokens leak
+    cve_id: CVE-2024-22421
+    cve_url: https://github.com/advisories/GHSA-44cc-43rp-5947
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.0.11
+  - name: JupyterLab vulnerable to SXSS in Markdown Preview
+    cve_id: CVE-2024-22420
+    cve_url: https://github.com/advisories/GHSA-4m77-cmpx-vjc4
+    detected_date: Jan 20
+    severity: moderate
+    first_patched: 4.0.11
+- name: kiwisolver
+  description: A fast implementation of the Cassowary constraint solver
+  package_url: https://pypi.org/project/kiwisolver
+  version: 1.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20772/default_b92e3d801a6b8cc7a378e4f7c25f52a138a86391.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: lightgbm
+  description: LightGBM Python Package
+  package_url: https://pypi.org/project/lightgbm
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: llvmlite
+  description: Lightweight wrapper around basic LLVM functionality
+  package_url: https://pypi.org/project/llvmlite
+  version: 0.41.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: mistune
+  description: The fastest markdown parser in pure Python
+  package_url: https://pypi.org/project/mistune
+  version: 3.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20077/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: mpmath
+  description: Python library for arbitrary-precision floating-point arithmetic
+  package_url: https://pypi.org/project/mpmath
+  version: 1.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: multiprocess
+  description: Better multiprocessing and multithreading in python
+  package_url: https://pypi.org/project/multiprocess
+  version: 0.70.15
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20654/default_4658783a4f70e14bc0c2a151840ea9736539842c.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: nbconvert
+  description: Converting Jupyter Notebooks
+  package_url: https://pypi.org/project/nbconvert
+  version: 7.10.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20059/default_07febc56eb57b6d4c91eb3ad11874d5d88882ab0.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: nbformat
+  description: The Jupyter Notebook format
+  package_url: https://pypi.org/project/nbformat
+  version: 5.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20035/default_a3692729f5b4ca7eb94218522ed4260bba4a5c15.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: nest-asyncio
+  description: Patch asyncio to allow nested event loops
+  package_url: https://pypi.org/project/nest-asyncio
+  version: 1.5.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20756/default_3b89e4079f3032d1be4fc7657dcb47e23c973660.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: networkx
+  description: Python package for creating and manipulating graphs and networks
+  package_url: https://pypi.org/project/networkx
+  version: 3.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19877/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: numba
+  description: Compiling Python code using LLVM
+  package_url: https://pypi.org/project/numba
+  version: 0.58.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20053/default_9f5ca9b3fcd68c068d4026e56ab738e8e865691f.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: overrides
+  description: A decorator to automatically detect mismatch when overriding a method
+  package_url: https://pypi.org/project/overrides
+  version: 7.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '23.2'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 1.5.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pandocfilters
+  description: Utilities for writing pandoc filters in python
+  package_url: https://pypi.org/project/pandocfilters
+  version: 1.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20528/default_1977a1f74deaf220f3f454ab642f7526a744ed5f.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: parso
+  description: A Python Parser
+  package_url: https://pypi.org/project/parso
+  version: 0.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20216/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pathos
+  description: Parallel graph management and execution in heterogeneous computing
+  package_url: https://pypi.org/project/pathos
+  version: 0.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20414/default_834dddd57f7b1404b19fa6cd08f22a7da3156be5.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: patsy
+  description: A Python package for describing statistical models and for building
+    design matrices
+  package_url: https://pypi.org/project/patsy
+  version: 0.5.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  version: 4.8.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: plotly
+  description: An open-source, interactive graphing library for Python
+  package_url: https://pypi.org/project/plotly
+  version: 5.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20062/default_7d86b2789b7e98a881e37db483c09c6a1aa3e995.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pox
+  description: Utilities for filesystem exploration and automated builds
+  package_url: https://pypi.org/project/pox
+  version: 0.3.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.39
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.9.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: ptyprocess
+  description: Run a subprocess in a pseudo terminal
+  package_url: https://pypi.org/project/ptyprocess
+  version: 0.7.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20391/default_ec7f908dc4ac3533950df7d8e371292c0bdc3812.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pyarrow
+  description: Python library for Apache Arrow
+  package_url: https://pypi.org/project/pyarrow
+  version: 13.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20366/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+  vulnerabilities:
+  - name: 'PyArrow: Arbitrary code execution when loading a malicious data file'
+    cve_id: CVE-2023-47248
+    cve_url: https://github.com/advisories/GHSA-5wvp-7f3h-6wmm
+    detected_date: Nov 10
+    severity: critical
+    first_patched: 14.0.1
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  version: '2.21'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pyparsing
+  description: Python parsing module
+  package_url: https://pypi.org/project/pyparsing
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19881/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: python-json-logger
+  description: A python library adding a json log formatter
+  package_url: https://pypi.org/project/python-json-logger
+  version: 2.0.7
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20268/default_ac8229927eda3d44316aa5b5d6704388a231bb77.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: pyzmq
+  description: Python bindings for 0MQ
+  package_url: https://pypi.org/project/pyzmq
+  version: 25.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19913/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: retrying
+  description: Retrying
+  package_url: https://pypi.org/project/retrying
+  version: 1.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20013/default_70556f9333e0a39c148cac0c36ca24235943f270.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  version: 1.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: seaborn
+  description: 'Seaborn: statistical data visualization'
+  package_url: https://pypi.org/project/seaborn
+  version: 0.13.0
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: soupsieve
+  description: A modern CSS selector implementation for Beautiful Soup
+  package_url: https://pypi.org/project/soupsieve
+  version: '2.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20367/default_f96848c380cbdcec99ab678e027c29229da52205.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: statsmodels
+  description: Statistical computations and models for Python
+  package_url: https://pypi.org/project/statsmodels
+  version: 0.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: sympy
+  description: Computer algebra system
+  package_url: https://pypi.org/project/sympy
+  version: '1.12'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19976/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: terminado
+  description: Terminals served to xterm.js using Tornado websockets
+  package_url: https://pypi.org/project/terminado
+  version: 0.17.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20664/default_7a811a73f70dc50b94351ae6cb030cc7b1540ea6.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: tinycss2
+  description: Low-level CSS parser for Python
+  package_url: https://pypi.org/project/tinycss2
+  version: 1.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: tomli
+  description: A lil' TOML parser
+  package_url: https://pypi.org/project/tomli
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: tornado
+  description: Tornado is a Python web framework and asynchronous networking library
+  package_url: https://pypi.org/project/tornado
+  version: 6.3.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19860/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.66.1
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: traitlets
+  description: Traitlets Python config system
+  package_url: https://pypi.org/project/traitlets
+  version: 5.13.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20029/default_73018c8841403fdd7d8f629d056cba8f938c5589.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 2.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: webcolors
+  description: A library for working with color names and color values formats defined
+    by HTML and CSS
+  package_url: https://pypi.org/project/webcolors
+  version: '1.13'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20536/default_204c8420775bf241799cfda883755b8613757a78.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: webencodings
+  description: Character encoding aliases for legacy web content
+  package_url: https://pypi.org/project/webencodings
+  version: 0.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20327/default_1342a7e78c3c34f58715077849cd487ffddd263d.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: websocket-client
+  description: WebSocket client for Python. hybi13 is supported
+  package_url: https://pypi.org/project/websocket-client
+  version: 1.6.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19910/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: wrapt
+  description: Module for decorators, wrappers and monkey patching
+  package_url: https://pypi.org/project/wrapt
+  version: 1.16.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19946/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: wurlitzer
+  description: Capture C-level output in context managers
+  package_url: https://pypi.org/project/wurlitzer
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: xarray
+  description: N-D labeled arrays and datasets in Python
+  package_url: https://pypi.org/project/xarray
+  version: 2023.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20331/default_cf6b540611cb9b9b5d016a661f54f50ad3400f1a.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: xxhash
+  description: Python binding for xxHash
+  package_url: https://pypi.org/project/xxhash
+  version: 3.4.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20358/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/Ashish-Soni08/SE-Europe-Data_Challenge/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashish Soni
+  last_updated_on: 2023-11-20 23:33:17.000000000 Z
